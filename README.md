@@ -122,3 +122,15 @@ samples used as part of the PGA-GNN dataset.
 Example:
 
 python datasets/generate_carla_dataset.py
+Important Notes
+The original TuSimple, CULane, BDD100K, and ACDC datasets are not included
+in this repository.
+Users must obtain these datasets from their respective official sources.
+The preparation scripts select the required subsets from the locally
+downloaded datasets.
+The sample counts reported in this repository correspond to the datasets
+used in the PGA-GNN experiments.
+Dataset redistribution is avoided in accordance with the respective
+dataset distribution and licensing conditions.
+The implementation and complete experimental pipeline may be released
+separately.
