@@ -90,3 +90,5 @@ The provided script can be used to generate the synthetic samples
 used as training augmentation:
 
 python datasets/generate_carla_dataset.py
+
+
